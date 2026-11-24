@@ -137,7 +137,7 @@ async function createQuotePdf(template, pdfLib, details, prices) {
 
     const serviceRequirement = includesService
         ? 'Presa elettrica trifase 32A pentapolare 20Kw nei pressi del palco'
-        : 'Il pieno rispetto delle condizioni indicate nella scheda tecnica';
+        : 'Il pieno rispetto della scheda tecnica';
     const requirements = [serviceRequirement];
     if (details.meal) requirements.push('Pasto per 8 persone');
     if (details.overnight) requirements.push('Pernottamento per 8 persone');
